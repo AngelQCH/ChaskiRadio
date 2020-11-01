@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ChaskiRadio</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">ChaskiRadio Message</string>
+    <string name="nombre_programa">Desarrollo con Flutter</string>
+    <string name="tipo_programa">ESPECIAL</string>
+    <string name="detalle_programa">24 de Noviembre 2019, 120 min</string>
+    <string name="descripcion_programa">Amigos, hoy tenemos un invitado especial, Gustavo Lizarraga que a partir de las 15:30 nos contará sobre el Google Developer Group Android Bolivia
+    y su siguiente evento dedicado a tecnología AR y VR</string>
+    <string name="media_url_mp3">https://storage.googleapis.com/exoplayer-test-media-0/play.mp3</string>
+    <string name="actividad_ejemplo">Votación Carreras más Cotizadas</string>
+</resources>

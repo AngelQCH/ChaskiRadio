@@ -1,0 +1,100 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme2" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="SplashTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="textWhite">
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="LoginTheme" parent="AppTheme.NoActionBar">
+        <item name="android:layout_marginTop">32dp</item>
+    </style>
+    <style name="InstrucTheme" parent="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="BotonAzulFuerte" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/azul</item>
+        <item name="colorControlHighlight">@color/azulAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAmarillo" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:colorActivatedHighlight">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="BotonRojo" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/red</item>
+        <item name="colorControlHighlight">@color/redAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAccent" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/green</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonVerde" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/green</item>
+        <item name="colorControlHighlight">@color/greenAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonNegro" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primaryText</item>
+        <item name="colorControlHighlight">@color/secondaryText</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAccidente" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/mvnS</item>
+        <item name="colorControlHighlight">@color/mvnD</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BotonAlert" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@android:color/white</item>
+        <item name="colorControlHighlight">@color/primaryText</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="BotonTransparente" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="colorControlHighlight">@color/casiblanco</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BotonTab1" parent="Theme.AppCompat.Light">
+        <item name="backgroundTint">#0d47a1</item>
+        <item name="colorControlHighlight">#002171</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="AddButton" parent="Widget.MaterialComponents.Button.TextButton">
+    </style>
+</resources>
